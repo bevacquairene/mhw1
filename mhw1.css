@@ -1,0 +1,252 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkkhaki;
+    margin-top:20px;
+    border-radius: 50px;
+  }
+  @media(max-width: 500px){
+    nav{
+      background-color: khaki;
+    }
+  }
+  
+  a.element{
+    border: 2px solid lightgoldenrodyellow;
+    border-radius:40px;
+    padding: 10px;
+    font-family: Zilla Slab, Helvetica;
+    font-size: 20px;
+    color: lightgoldenrodyellow;
+    margin: 20px;
+    text-decoration: none;
+  }
+  @media(max-width: 500px){
+    a.element{
+      font-size: 15px;
+      color: darkgoldenrod;
+      border-color: darkgoldenrod;
+      padding: 5px;
+    }
+  }
+  a.element:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bolder;
+    border-color: white;
+  }
+  @media(max-width: 500px){
+    a.element:hover{
+      font-size: 17px;
+    }
+  }
+  
+  header{
+    height: 500px;
+    background-image:url(Images/Sfondo.png);/*url(https://images2.alphacoders.com/718/718555.png);*/
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 20px;
+    z-index: -1;
+  }
+  @media(max-width: 500px){
+    header{
+      height: 250px;
+      
+    }
+  }
+
+  #titolo{
+    color: white;
+    font-family: Alkatra, goudy old style;
+    font-size: 50px;
+    font-style: italic;
+    position:absolute;
+    top: 40%;
+    left: 33%;
+    z-index: 1;
+  }
+  @media(max-width: 500px){
+    #titolo{
+      font-size: 20px;
+      left: 25%;
+    }
+  }
+
+  #overlay{
+    background-color: rgba(0 0, 0,0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+  
+  #img1{
+    height: 100px;
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    z-index: 1;
+  }
+  @media(max-width: 500px){
+    #img1{
+      height: 75px;
+      width: 75px;
+      margin-top: -37.5px;
+
+    }
+  }
+  
+  div#intestazione{
+     text-align: center;
+  }
+  
+  article{
+    width: 66.7%;
+    margin-bottom: 120px;
+  }
+  @media(max-width: 500px){
+    article{
+      width: 80%;
+    }
+  }
+  div#testo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     margin-top: 60px;
+  }
+  .text{
+    margin-right: 40px;
+    font-family: Italic;
+     font-size: 30px;
+    color: gray;
+  }
+  @media(max-width: 500px){
+    .text{
+      margin-right: 5px;
+      font-size: 25px;
+      color:darkslategrey;
+    }
+  }
+  
+  
+  .title{
+    font-size: 30px;
+    font-family: Lora, Century Gothic;
+   
+  }
+  @media(max-width: 500px){
+    .title{
+      font-size: 25px;;
+    }
+  }
+  .verso{
+    margin-left: 70px;
+    font-family: Farsan, Candara;
+    font-size: 25px;
+  }
+  @media(max-width: 500px){
+    .verso{
+      margin-left: 25px;
+      font-size: 15px;
+    }
+    
+  }
+  .link{
+    color: darkgreen;
+  }
+  .link:hover{
+    color: green;
+    font-size:26px;
+  }
+  @media(max-width: 500px){
+    .link:hover{
+      font-size: 16px;
+    }
+  }
+  .info{
+    margin-left: 70px;
+    font-family: Farsan, Candara;
+    font-size: 25px; 
+  }
+  @media(max-width: 500px){
+    .info{
+      margin-left: 25px;
+      font-size: 15px;
+    }
+    
+  }
+  p{
+    margin-left: 65px;
+    margin-top: 20px;
+    font-family: Maven Pro,Candara;
+    font-size: 20px;
+  }
+  @media(max-width: 500px){
+    p{
+      font-family: 'Times New Roman';
+      font-size: 15px;
+      margin-left: 10px;
+    }
+  }
+  .img{
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 85%;
+    height: 450px;
+    border: 25px solid darkkhaki;
+  }
+  @media(max-width: 500px){
+    .img{
+      height: 200px;
+      border: 10px solid khaki;
+      margin-left: 20px;
+    }
+  }
+  
+  body{
+    background-color: khaki;
+    
+  }
+  @media(max-width: 500px){
+    body{
+      background-color: lemonchiffon;
+    }
+  }
+  footer{
+    height: 100px;
+    background-color: darkkhaki;
+    text-align: center;
+  }
+  @media(max-width: 500px){
+    footer{
+      background-color: khaki;
+    }
+  }
+  #ending{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    color: white;
+  }
+  @media(max-width: 500px){
+    #ending{
+      font-size: 20px;
+      color: darkgoldenrod;
+    }
+  }
+  
+  
+  
+  
+  
